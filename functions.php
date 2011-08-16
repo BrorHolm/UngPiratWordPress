@@ -164,7 +164,7 @@ function new_custom_background_cb() {
 add_custom_background(new_custom_background_cb, '', '');
 
 define('HEADER_TEXTCOLOR', '');
-define('HEADER_IMAGE', '%s/images/header_img.png'); // %s is the template dir uri
+define('HEADER_IMAGE', '%s/images/default_banner.png'); // %s is the template dir uri
 define('HEADER_IMAGE_WIDTH', 830); // use width and height appropriate for your theme
 define('HEADER_IMAGE_HEIGHT', 170);
 define('NO_HEADER_TEXT', true);
@@ -186,5 +186,4 @@ function admin_header_style() {
             height: <?php echo $HEADER_IMAGE_HEIGHT; ?>px;
         }
     </style><?php
-}
-?>
+}?>
